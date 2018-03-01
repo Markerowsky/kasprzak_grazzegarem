@@ -7,5 +7,21 @@
     android:orientation="vertical"
     tools:context="pl.edu.kasprzak.grazzegarem.GraActivity"
     android:weightSum="1">
-    <!-- Czegoś tutaj brakuje -->
+    <TextView
+        android:id="@+id/clock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="80sp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="75sp"
+
+        />
+
+    <Button
+        android:id="@+id/action"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+
+        />
 </LinearLayout>
