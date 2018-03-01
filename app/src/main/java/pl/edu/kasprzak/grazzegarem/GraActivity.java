@@ -21,6 +21,7 @@ public class GraActivity extends AppCompatActivity {
     private TextView clock;
     private Handler handler;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
